@@ -1,0 +1,4 @@
+TX_AMOUNT,fraud_probability,prediction,prediction_label
+120,0.07333333333333333,0,Not Fraud
+2500,0.9666666666666667,1,Fraud
+200,0.10666666666666667,0,Not Fraud

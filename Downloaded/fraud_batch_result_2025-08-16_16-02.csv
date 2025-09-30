@@ -1,0 +1,4 @@
+TX_AMOUNT,TX_HOUR,TX_WEEKDAY,fraud_probability,prediction,prediction_label
+120,14,2,0.07333333333333333,0,Not Fraud
+2500,3,6,0.9666666666666667,1,Fraud
+200,9,1,0.10666666666666667,0,Not Fraud
