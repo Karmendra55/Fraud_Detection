@@ -8,6 +8,7 @@ An end-to-end project to train and deploy a **Fraud Detection system** with real
 ## Dataset Layout
 
 Put them like, the program expects this structure:
+```markdown
 > data/
 >   2018-04-01.pkl
 >   2018-04-02.pkl
@@ -20,7 +21,7 @@ Put them like, the program expects this structure:
 > models/
 >  encoders.pkl
 >  fraud_detection_model.pkl
-
+```
 The Dataset is provided in all pickle file, If the user wants to check without running the entire application then kindly,
 > Open `Sample_Dataset_view` by simply opening a bash/powershell command and paste this:
 ```bash
