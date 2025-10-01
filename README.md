@@ -24,7 +24,7 @@ Put them like, the program expects this structure:
 The Dataset is provided in all pickle file, If the user wants to check without running the entire application then kindly,
 > Open `Sample_Dataset_view` by simply opening a bash/powershell command and paste this:
 ```bash
-> `streamlit run Sample_Dataset_view.py`
+`streamlit run Sample_Dataset_view.py`
 ```
 
 ## Quickstart
