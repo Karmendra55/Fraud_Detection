@@ -43,7 +43,7 @@ run.bat
 2b) Option B
 - Open the command/bash and do the follow:
 ```bash
-cd {Location of the Drive:/file/.../Fraud_detection/}
+cd {Location of the "Drive:/file/.../Fraud_detection/"}
 ```
 and type
 ```bash
