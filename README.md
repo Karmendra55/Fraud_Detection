@@ -1,20 +1,13 @@
-Fraud Detection Project
+# Fraud Detection System Project
 
-All the required files can be downloaded from here, kindly download them and paste on the root folder then run the program:
+All the required files can be downloaded from here, kindly download them and paste on the root folder then run the program, without them the project will not work as intended:
 https://drive.google.com/drive/folders/16t_MbiN-RgqEgBSzV4d5DleMOoUc-MmD?usp=drive_link
 
-The application allows analysts, investigators, and general users to analyze transaction behavior, evaluate fraud probability 
-for single transactions, or perform batch predictions on uploaded datasets. Core components include data preprocessing, 
-feature engineering, and probabilistic scoring, supported by SHAP-based visual explanations to enhance model transparency. 
-The frontend offers a comprehensive dashboard, raw and processed data exploration, exploratory visualizations, 
-and insights into model performance and feature importance.
+An end-to-end project to train and deploy a **Fraud Detection system** with real-time probability scoring, SHAP-based model explainability, and an interactive dashboard for analysts and investigators.
 
-Dataset Layout
+## Dataset Layout
 
-Please Download the Dataset first to use from the same google drive and paste it in the root folder:
-https://drive.google.com/file/d/1ZvZpYSk8cAQKK9nVRqBT4u0v1Rt2XoTf/view?usp=drive_link
-
-and put them like:
+Put them like, the program expects this structure:
 > data/
 >   2018-04-01.pkl
 >   2018-04-02.pkl
@@ -30,8 +23,9 @@ and put them like:
 
 The Dataset is provided in all pickle file, If the user wants to check without running the entire application then kindly,
 > Open `Sample_Dataset_view` by simply opening a bash/powershell command
+```bash
 > Type `streamlit run Sample_Dataset_view.py`
-
+```
 To Run and install all the dependency and Modules
 > Run the `install_modules.bat` file on the root
 then follow the steps below
