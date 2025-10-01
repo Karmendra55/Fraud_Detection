@@ -51,7 +51,7 @@ streamlit run main.py
 
 Make sure all files are placed as shown in the dataset layout.
 
-##Model & Scenarios
+## Model & Scenarios
 
 The system is designed to flag fraudulent transactions based on:
 - High Transaction Amounts – Any transaction above 220 is flagged.
